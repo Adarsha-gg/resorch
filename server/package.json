@@ -1,0 +1,19 @@
+{
+  "name": "spatial-handshake-signaling",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "tsx watch signaling.ts",
+    "start": "tsx signaling.ts",
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "@types/express": "^5.0.6",
+    "@types/node": "^25.6.2",
+    "express": "^5.2.1",
+    "socket.io": "^4.8.3",
+    "tsx": "^4.21.0",
+    "typescript": "^6.0.3"
+  }
+}

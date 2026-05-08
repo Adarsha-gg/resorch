@@ -1,0 +1,22 @@
+# Python Virtual Environments
+venv/
+env/
+.venv/
+.env/
+vggt_venv/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# PyTorch/Models
+models/vggt/.git
+models/mast3r/.git
+models/mast3r/dust3r/.git
+
+# Jupyter Notebooks
+.ipynb_checkpoints
+*.ipynb
+
+# Output
+output/
